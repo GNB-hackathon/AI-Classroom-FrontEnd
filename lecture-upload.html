@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 조교와 비밀의 강의실</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script
+      src="https://kit.fontawesome.com/124d1ca3f7.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <nav class = "nav">
+        <a class="title" href="index.html">
+            <img src="image/Title.svg">
+        </a>
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                  인문과학  
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                  사회과학  
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                  공학  
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                  자연과학  
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                  교육학  
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                  의약학  
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                  예술체육  
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                  초등  
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                  중등  
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                  고등  
+                </a>
+            </li>
+        </ul>
+        <div class="bar">
+            <a class="log-in" href="login.html">로그인</a>
+            <a class="sign-up" href="signup.html">회원가입</a>
+        </div>
+        <a class="menu" href="#">
+            <img src="image/material-symbols_menu.svg"/>
+        </a>
+    </nav>
+    
+    <div class="banner">
+        <div class="banner__rectangle"></div>
+        <img
+          class="banner__image"
+          src="image/unsplash_y8C6EbB383M.png"
+        />
+        <div class="banner__text">
+            <span>
+              <span class="banner__text__강의의새로운시대">
+                강의의 새로운 시대,
+                <br />
+                AI 조교의
+              </span>
+              <span class="banner__text__비밀강의실">비밀 강의실</span>
+              <span class="banner__text__함께">에서 함께 하세요!</span>
+            </span>
+        </div>
+    </div>
+
+    <form action="" method="post" enctpye="" class="upload-form">
+        <h2>강의 등록하기</h2>
+        <div class="upload-form__text">
+            <span>강의명</span>
+            <input type="text" name="coursename" required />
+        </div>
+        <div class="upload-form__text">
+            <span>강의 설명</span>
+            <textarea id="course-decription" rows="4" required></textarea>
+        </div>
+        <div class="upload-form__radio">
+            <span>목소리 변조 여부</span>
+            <div class="upload-form__select">
+                <label>
+                    <input type="radio" name="voicechange" value="yes" requried>
+                    Yes
+                </label>
+                <label>
+                    <input type="radio" name="voicechange" value="no">
+                    No
+                </label>
+            </div>
+        </div>
+        <div class="upload-form__video">
+            <span>강의 등록</span>
+            <input type="file" name="videoupload" accept="video/*" required/>
+        </div>
+        <button type="submit">등록</button>
+    </form>
+
+</body>
+</html>
