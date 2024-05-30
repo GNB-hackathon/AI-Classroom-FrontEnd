@@ -1,0 +1,34 @@
+.my-classrom__title{
+    font-family: "Pretendard-Bold", sans-serif;
+    font-size: 32px;
+    margin: 50px;
+}
+.my-classrom{
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid rgba(121, 121, 121, 0.3);
+    font-size: 24px;
+}
+.my-sidebar{
+    width: 240px;
+    padding-left: 50px;
+    border-right: 1px solid rgba(121, 121, 121, 0.3);
+}
+
+.my-sidebar h3, .content h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #0259DB;
+}
+
+.sidebar__list a{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.content h2 {
+    font-family: "Pretendard-Semibold", sans-serif;
+    font-size: 30px;
+    color: black;
+    margin-left: 30px;
+}
