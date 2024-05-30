@@ -1,0 +1,40 @@
+.nav{
+    margin: 45px 60px;
+    display: flex;
+    align-items: flex-end;
+    position:relative;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+.title{
+    width: 201px;
+    height: 93px;
+}
+.nav__list{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    margin: 0px 65px;
+    font-size: 18px;
+}
+.nav__btn{
+    margin-right: 25px;
+}
+.bar{
+    margin-bottom: 15px;
+    position: absolute;
+    right:0px;
+    top:0px;
+}
+.log-in{
+    margin-right:10px;
+    font-size: 18px;
+}
+.sign-up{
+    font-size: 18px;
+}
+.menu{
+    margin-bottom: 4px;
+    position: absolute;
+    right:0px;
+}
