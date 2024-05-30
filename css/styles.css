@@ -1,0 +1,17 @@
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/nav-bar.css";
+@import "components/banner.css";
+
+/* Screens */
+@import "screens/search-box.css";
+@import "screens/login.css";
+@import "screens/signup.css";
+@import "screens/lecture-upload.css";
+
+body{
+    margin:0;
+    font-family: "Pretendard-Regular", sans-serif;
+}
