@@ -12,6 +12,7 @@
 @import "screens/lecture-upload.css";
 @import "screens/mypage.css";
 @import "screens/lecture.css";
+@import "screens/modify-info.css";
 
 body{
     margin:0;

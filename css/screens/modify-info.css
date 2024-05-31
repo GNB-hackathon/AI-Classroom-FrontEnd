@@ -1,0 +1,49 @@
+.modify-form{
+    display: flex;
+    flex-direction:column;
+    margin: 30px auto;
+    width: 335px;
+    border: 0;
+}
+.modify-form h2 {
+    text-align: center;
+    font-family: "Pretendard-Bold", sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.modify-form__text{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.modify-form__text span{
+    margin-bottom: 10px;
+}
+.modify-form__text input{
+    border-radius: 8px;
+    border: 1.5px solid #e2e8f0;
+    padding: 12px 16px;
+}
+.modify-form__btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    gap: 15px;
+}
+.modify-form input[type="submit"],.modify-form button {
+    flex:1;
+    background-color: var(--skyblue);
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+.modify-form button {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}

@@ -95,34 +95,37 @@
         </div>
     </div>
 
-    <h2 class="my-classrom__title">내 강의실</h2>
-
-    <div class="my-classrom">
-        <div class="my-sidebar">
-            <h3>회원정보</h3>
-            <ul class="sidebar__list">
-                <li>
-                    <a href="modify-info.html">회원정보 수정</a>
-                </li>
-            </ul>
-            <h3>즐겨찾는 강의</h3>
-            <ul class="sidebar__list">
-                <li><a href="#">인문과학</a></li>
-                <li><a href="#">사회과학</a></li>
-                <li><a href="#">공학</a></li>
-                <li><a href="#">자연과학</a></li>
-                <li><a href="#">교육학</a></li>
-                <li><a href="#">의약학</a></li>
-                <li><a href="#">예술체육</a></li>
-                <li><a href="#">초등</a></li>
-                <li><a href="#">중등</a></li>
-                <li><a href="#">고등</a></li>
-            </ul>
+    <form method="post" action="#" class="modify-form">
+        <h2>회원정보 수정</h2>
+        <div class="modify-form__input">
+            <div class="modify-form__text">
+                <span>아이디</span>
+                <input type="text" name="ID" placeholder="아이디" readonly />
+            </div>
+            <div class="modify-form__text">
+                <span>새 비밀번호</span>
+                <input type="password" name="new-password" placeholder="********" />
+            </div>
+            <div class="modify-form__text">
+                <span>새 비밀번호 확인</span>
+                <input type="password" name="new-pw-confirm" placeholder="********" />
+            </div>
+            <div class="modify-form__text">
+                <span>이메일</span>
+                <input type="email" name="ID" placeholder="새로운 이메일 입력" />
+            </div>
+            <div class="modify-form__text">
+                <span>전화번호</span>
+                <input type="tel" name="phonenumber" placeholder="전화번호를 입력하세요" />
+            </div>
+            <div class="modify-form__btn">
+                <input type="submit" value="정보수정" />
+                <button type="button" class="modify__cancel">
+                    <span>취소하기</span>
+                 </button>
+            </div>   
         </div>
-        <div class="content">
-            <h2>최근 시청한 강의</h2>
-        </div>
-    </div>
+    </form>
 
 </body>
 </html>
