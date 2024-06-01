@@ -8,3 +8,4 @@ import './review-board.js';
 import './category-lecture.js';
 import './favorite-lecture.js';
 import './lecture-tutor.js';
+import './mainpage_lecture.js';
