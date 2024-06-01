@@ -11,7 +11,7 @@
 
 배포 링크
 ------
-
+https://ai-classroom.netlify.app/
 
 기획 방향성
 ---------------------------------
@@ -95,6 +95,9 @@
 
 API
 ---
+
+<img width="565" alt="KakaoTalk_20240602_042048677" src="https://github.com/GNB-hackathon/AI-Classroom-FrontEnd/assets/137675779/3e3051a7-6a66-4e66-84d9-eff0433133cf">
+
 
 
 
