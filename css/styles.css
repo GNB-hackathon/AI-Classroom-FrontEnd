@@ -15,6 +15,7 @@
 @import "screens/modify-info.css";
 @import "screens/lecture-modify.css";
 @import "screens/lecture-container.css";
+@import "screens/search.css";
 
 body{
     margin:0;
