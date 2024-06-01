@@ -38,7 +38,6 @@
     font-family: "Pretendard-Semibold", sans-serif;
     font-size: 30px;
     color: black;
-    margin-left: 30px;
 }
 .newlecture-upload {
     margin-top: 10px;
@@ -63,4 +62,34 @@
     cursor: pointer;
     font-size: 14px;
     font-weight: 500;
+}
+.content {
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.lecture-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.mypage-lecture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.mypage-lecture img{
+    width: 390px;
+    height: 260px;
+    margin-bottom: 15px;
+}
+.mypage-lecture__info{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+.mypage-lecture__info span{
+    margin:0px 5px;
 }

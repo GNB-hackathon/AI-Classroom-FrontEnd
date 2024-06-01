@@ -68,8 +68,8 @@
             </li>
         </ul>
         <div class="bar">
-            <a class="log-in" href="login.html">로그인</a>
-            <a class="sign-up" href="signup.html">회원가입</a>
+            <a class="log-in" href="#">마이페이지</a>
+            <a class="sign-up" href="#">로그아웃</a>
         </div>
         <a class="menu" href="#">
             <img src="image/material-symbols_menu.svg"/>
@@ -95,49 +95,35 @@
         </div>
     </div>
 
-    <form method="post" action="#" class="signup-form">
-        <h2>회원가입</h2>
-        <div class="signup-form__input">
-            <div class="signup-form__radio">
-                <span>회원 종류</span>
-                <div class="signup-form__select">
-                    <label>
-                        <input type="radio" name="memberType" value="student" checked>
-                        학생
-                    </label>
-                    <label>
-                        <input type="radio" name="memberType" value="tutor">
-                        튜터
-                    </label>
-                </div>
-            </div>
-            <div class="signup-form__text">
+    <form method="post" action="#" class="modify-form">
+        <h2>회원정보 수정</h2>
+        <div class="modify-form__input">
+            <div class="modify-form__text">
                 <span>아이디</span>
-                <input type="text" name="ID" placeholder="아이디를 입력하세요" />
+                <input type="text" name="ID" placeholder="아이디" readonly />
             </div>
-            <div class="signup-form__text">
-                <span>비밀번호</span>
-                <input type="password" name="password" placeholder="********" />
+            <div class="modify-form__text">
+                <span>새 비밀번호</span>
+                <input type="password" name="new-password" placeholder="********" />
             </div>
-            <div class="signup-form__text">
-                <span>비밀번호 확인</span>
-                <input type="password" name="pw-confirm" placeholder="********" />
+            <div class="modify-form__text">
+                <span>새 비밀번호 확인</span>
+                <input type="password" name="new-pw-confirm" placeholder="********" />
             </div>
-            <div class="signup-form__text">
+            <div class="modify-form__text">
                 <span>이메일</span>
-                <input type="email" name="ID" placeholder="이메일을 입력하세요." />
+                <input type="email" name="ID" placeholder="새로운 이메일 입력" />
             </div>
-            <div class="signup-form__text">
+            <div class="modify-form__text">
                 <span>전화번호</span>
                 <input type="tel" name="phonenumber" placeholder="전화번호를 입력하세요" />
             </div>
-            <div class="signup-form__btn">
-                <input type="submit" value="가입하기" />
-                <button type="button" class="signup__cancel">
+            <div class="modify-form__btn">
+                <input type="submit" value="정보수정" />
+                <button type="button" class="modify__cancel">
                     <span>취소하기</span>
                  </button>
-            </div>
-            
+            </div>   
         </div>
     </form>
 

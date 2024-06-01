@@ -68,8 +68,8 @@
             </li>
         </ul>
         <div class="bar">
-            <a class="log-in" href="mypage.html">마이페이지</a>
-            <a class="sign-up" href="#">로그아웃</a>
+            <a class="log-in" href="login.html">로그인</a>
+            <a class="sign-up" href="signup.html">회원가입</a>
         </div>
         <a class="menu" href="#">
             <img src="image/material-symbols_menu.svg"/>
@@ -95,37 +95,74 @@
         </div>
     </div>
 
-    <form method="post" action="#" class="modify-form">
-        <h2>회원정보 수정</h2>
-        <div class="modify-form__input">
-            <div class="modify-form__text">
-                <span>아이디</span>
-                <input type="text" name="ID" placeholder="아이디" readonly />
-            </div>
-            <div class="modify-form__text">
-                <span>새 비밀번호</span>
-                <input type="password" name="new-password" placeholder="********" />
-            </div>
-            <div class="modify-form__text">
-                <span>새 비밀번호 확인</span>
-                <input type="password" name="new-pw-confirm" placeholder="********" />
-            </div>
-            <div class="modify-form__text">
-                <span>이메일</span>
-                <input type="email" name="ID" placeholder="새로운 이메일 입력" />
-            </div>
-            <div class="modify-form__text">
-                <span>전화번호</span>
-                <input type="tel" name="phonenumber" placeholder="전화번호를 입력하세요" />
-            </div>
-            <div class="modify-form__btn">
-                <input type="submit" value="정보수정" />
-                <button type="button" class="modify__cancel">
-                    <span>취소하기</span>
-                 </button>
-            </div>   
-        </div>
+    <form class="search-box" action="#" method="get">
+        <input class="search-txt" type="text" name="" placeholder="검색어를 입력해주세요.">
+        <button class="search-btn" type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
     </form>
 
+    <div class="lectures">
+      <h2>최신 강의</h2>
+      <div class="lectures-latest">
+        <div class="lectures-info">
+          <a href="#">
+            <img src="image/thumbnail.jpeg">
+          </a>
+          <div class="lectures-info__text">
+            <span>[튜터명]</span>
+            <span>강의제목</span>
+          </div>
+        </div>
+        <div class="lectures-info">
+          <a href="#">
+            <img src="image/thumbnail.jpeg">
+          </a>
+          <div class="lectures-info__text">
+            <span>[튜터명]</span>
+            <span>강의제목</span>
+          </div>
+        </div>
+        <div class="lectures-info">
+          <a href="#">
+            <img src="image/thumbnail.jpeg">
+          </a>
+          <div class="lectures-info__text">
+            <span>[튜터명]</span>
+            <span>강의제목</span>
+          </div>
+        </div>
+      </div>
+      <h2>인기 강의</h2>
+      <div class="lectures-popular">
+        <div class="lectures-info">
+          <a href="#">
+            <img src="image/thumbnail.jpeg">
+          </a>
+          <div class="lectures-info__text">
+            <span>[튜터명]</span>
+            <span>강의제목</span>
+          </div>
+        </div>
+        <div class="lectures-info">
+          <a href="#">
+            <img src="image/thumbnail.jpeg">
+          </a>
+          <div class="lectures-info__text">
+            <span>[튜터명]</span>
+            <span>강의제목</span>
+          </div>
+        </div>
+        <div class="lectures-info">
+          <a href="#">
+            <img src="image/thumbnail.jpeg">
+          </a>
+          <div class="lectures-info__text">
+            <span>[튜터명]</span>
+            <span>강의제목</span>
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
 </html>

@@ -26,11 +26,11 @@
     right:0px;
     top:0px;
 }
-.log-in{
+.log-in, .mypage {
     margin-right:10px;
     font-size: 18px;
 }
-.sign-up{
+.sign-up, .log-out{
     font-size: 18px;
 }
 .menu{

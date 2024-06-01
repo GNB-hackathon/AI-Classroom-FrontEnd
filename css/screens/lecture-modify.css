@@ -1,51 +1,51 @@
-.upload-form{
+.lecture-modify{
     display: flex;
     flex-direction: column;
     margin: 30px auto;
     width: 50%;
     border:0;
 }
-.upload-form h2{
+.lecture-modify h2{
     text-align: center;
     font-family: "Pretendard-Bold", sans-serif;
     font-size: 30px;
     margin-bottom: 20px;
 }
-.upload-form__text,
-.upload-form__radio,
-.upload-form__video,
-.upload-form__image{
+.lecture-modify__text,
+.lecture-modify__radio,
+.lecture-modify__video,
+.lecture-modify__image {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
     font-size: 20px;
 }
 
-.upload-form__text span,
-.upload-form__radio span,
-.upload-form__video span,
-.upload-form__image span{
+.lecture-modify__text span,
+.lecture-modify__radio span,
+.lecture-modify__video span,
+.lecture-modyfy__image span {
     margin-bottom: 10px;
 }
-.upload-form__text input,
-.upload-form__text textarea {
+.lecture-modify__text input,
+.lecture-modify__text textarea {
     border-radius: 8px;
     border: 1.5px solid var(--skyblue);
     padding: 12px 15px;
 }
 
-.upload-form__select {
+.lecture-modify__select {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.upload-form__radio label {
+.lecture-modify__radio label {
     display: flex;
     align-items: center;
     margin-right: 20px; /* 라디오 버튼들 사이 간격 */
 }
 
-.upload-form__radio input[type="radio"] {
+.lecture-modify__radio input[type="radio"] {
     margin-right: 5px; /* 라벨 내의 텍스트와 라디오 버튼 사이 간격 */
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -59,18 +59,18 @@
     transition: border 0.3s ease-in-out;
 }
 
-.upload-form__radio input[type="radio"]:checked {
+.lecture-modify__radio input[type="radio"]:checked {
     border: 0.4em solid var(--skyblue); /* 선택했을 때의 배경색 */
 }
-.upload-form__video input[type="file"],
-.upload-form__image input[type="file"] {
+.lecture-modify__video input[type="file"],
+.lecture-modify__image input[type="file"] {
     border-radius: 8px;
     border: 1.5px solid var(--skyblue);
     padding: 12px 15px;
     cursor: pointer;
     transition: border 0.3s ease-in-out;
 }
-.upload-form button[type="submit"] {
+.lecture-modify button[type="submit"] {
     flex: 1;
     background-color: var(--skyblue);
     border: none;

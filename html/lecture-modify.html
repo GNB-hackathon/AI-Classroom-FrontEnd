@@ -68,7 +68,7 @@
             </li>
         </ul>
         <div class="bar">
-            <a class="log-in" href="mypage.html">마이페이지</a>
+            <a class="log-in" href="#">마이페이지</a>
             <a class="sign-up" href="#">로그아웃</a>
         </div>
         <a class="menu" href="#">
@@ -95,54 +95,39 @@
         </div>
     </div>
 
-    <div class = "lecture-video">
-        <iframe class="lecture-video" src="강의영상링크" frmaborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="lecture-form">
-        <div class="lecture__info">
-            <h2>강의제목</h2>
-            <p>이 강의는 ...에 대해 다룹니다.</p>
+    <form action="" method="post" enctpye="" class="lecture-modify">
+        <h2>강의 수정하기</h2>
+        <div class="lecture-modify__text">
+            <span>강의명</span>
+            <input type="text" name="coursename" value="기존 강의명" required />
         </div>
-        <button class="favorite-lecture"> 즐겨찾는 강의 추가 </button>
-    </div>
-    
-    <div class="voice-form">
-      <h2>변조 목소리 선택</h2>
-      <div class="voice__select">
-        <label>
-            <input type="radio" name="voicechange" value="ddd" requried>
-            ddd
-        </label>
-        <label>
-            <input type="radio" name="voicechange" value="aaa">
-            aaa
-        </label>
-        <label>
-          <input type="radio" name="voicechange" value="sss">
-          sss
-      </label>
-      </div>
-    </div>
-    
-    <div class="review-board">
-        <h3>후기</h3>
-        <ul class="reviews">
-            <li>리뷰 1: 정말 유익한 강의였습니다.</li>
-            <li>리뷰 2: 많은 도움이 되었습니다.</li>
-        </ul>
-        <textarea class="review-input" placeholder="리뷰를 작성하세요..."></textarea>
-        <button class="submit-review">작성하기</button>
-    </div>
-
-    <div class="question-board">
-        <h3>질문 게시판</h3>
-        <ul class="questions">
-            <li>질문 1: 이 강의의 주요 내용은 무엇인가요?</li>
-            <li>질문 2: 과제 제출 기한은 언제인가요?</li>
-        </ul>
-        <textarea class="question-input" placeholder="질문을 작성하세요..."></textarea>
-        <button class="submit-question">작성하기</button>
-    </div>
+        <div class="lecture-modify__text">
+            <span>강의 설명</span>
+            <textarea id="course-decription" rows="4" required>기존 강의 설명</textarea>
+        </div>
+        <div class="lecture-modify__radio">
+            <span>목소리 변조 여부</span>
+            <div class="lecture-modify__select">
+                <label>
+                    <input type="radio" name="voicechange" value="yes" requried>
+                    Yes
+                </label>
+                <label>
+                    <input type="radio" name="voicechange" value="no">
+                    No
+                </label>
+            </div>
+        </div>
+        <div class="lecture-modify__video">
+            <span>영상 업로드</span>
+            <input type="file" name="videoupload" accept="video/*" required/>
+        </div>
+        <div class="lecture-modify__image">
+          <span>썸네일 선택</span>
+          <input type="file" name="image" accept="image/*" required/>
+        </div>
+        <button type="submit">수정하기</button>
+    </form>
 
 </body>
 </html>
