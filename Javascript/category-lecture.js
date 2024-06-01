@@ -1,12 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
     const navLinks = document.querySelectorAll('.nav__link');
     const lectureList = document.getElementById('lecture-list');
+    const banner = document.querySelector('.banner');
 
     navLinks.forEach(link => {
         link.addEventListener('click', async (event) => {
             event.preventDefault();
             const category = link.getAttribute('data-category');
             if (category) {
+                removeAllContentAfterBanner(banner);
                 await fetchLectures(category);
             }
         });
@@ -40,6 +42,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 `;
                 lectureList.appendChild(lectureItem);
             });
+        }
+    }
+
+    function removeAllContentAfterBanner(banner) {
+        while (banner.nextElementSibling) {
+            banner.nextElementSibling.remove();
         }
     }
 });
