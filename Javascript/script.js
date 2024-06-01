@@ -6,3 +6,6 @@ import './lecture-upload.js';
 import './search-input.js';
 import './review-board.js';
 import './question-board.js';
+import './category-lecture.js';
+import './favorite-lecture.js';
+import './lecture-tutor.js';
