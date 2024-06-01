@@ -5,10 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI 조교와 비밀의 강의실</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script
-      src="https://kit.fontawesome.com/124d1ca3f7.js"
-      crossorigin="anonymous"
-    ></script>
 </head>
 <body>
     <nav class = "nav">
@@ -165,38 +161,6 @@
       </div>
     </div>
 
-    <!--자바스크립트-->
-    <script>
-      // 마이페이지 버튼 클릭 시 동작할 JavaScript
-      document.querySelector('.mypage').addEventListener('click', function(event) {
-          event.preventDefault(); // 기본 동작 중단
-  
-          // 튜터 또는 학생 여부에 따라 페이지 이동
-          const userType = 'student'; // '학생'으로 변경 가능
-          let mypageUrl;
-  
-          if (userType === 'student') {
-              mypageUrl = '/mypage_student.html'; // 튜터의 마이페이지 URL
-          } else {
-              mypageUrl = '/mypage_tutor.html'; // 학생의 마이페이지 URL
-          }
-  
-          // 마이페이지로 이동
-          window.location.href = mypageUrl;
-      });
-  
-      // 로그아웃 버튼 클릭 시 동작할 JavaScript
-      document.querySelector('.log-out').addEventListener('click', function(event) {
-          event.preventDefault(); // 기본 동작 중단
-  
-          // 로그아웃 확인 메시지 표시
-          const confirmLogout = confirm('로그아웃 되었습니다.');
-  
-          if (confirmLogout) {
-              // 인덱스 페이지로 이동
-              window.location.href = 'index.html';
-          }
-      });
-      </script>
+    <script type="module" src="Javacript/script.js"></script>
 </body>
 </html>
