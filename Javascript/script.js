@@ -4,8 +4,5 @@ import './mainpage-mypage.js';
 import './logout.js';
 import './lecture-upload.js';
 import './search-input.js';
-
-document.querySelector('.newlecture-upload').addEventListener('click', function() {
-    window.location.href = 'lecture-upload.html';
-  });
-
+import './review-board.js';
+import './question-board.js';
