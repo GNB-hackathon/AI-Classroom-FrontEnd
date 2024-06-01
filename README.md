@@ -6,7 +6,7 @@
 
 |황예빈|김민주|김승현|여지환|
 |-----|------|-----|-----|
-|![image](https://github.com/GNB-hackathon/AI-Classroom-FrontEnd/assets/137675779/22200123-5423-4a9b-96ed-cf3803d8946d)|![image](https://github.com/GNB-hackathon/AI-Classroom-FrontEnd/assets/137675779/22200123-5423-4a9b-96ed-cf3803d8946d)|![image](https://github.com/GNB-hackathon/AI-Classroom-FrontEnd/assets/137675779/9a724c22-3772-4133-9c85-0a8951e7a18c)|![image](https://github.com/GNB-hackathon/AI-Classroom-FrontEnd/assets/137675779/22200123-5423-4a9b-96ed-cf3803d8946d)|
+|![image](https://github.com/GNB-hackathon/AI-Classroom-FrontEnd/assets/137675779/3bb8b384-9116-4edc-bc0c-03758e4822b7)|![image](https://github.com/GNB-hackathon/AI-Classroom-FrontEnd/assets/137675779/04eca068-5718-4eb0-8afe-fa2a5a538950)|![image](https://github.com/GNB-hackathon/AI-Classroom-FrontEnd/assets/137675779/9a724c22-3772-4133-9c85-0a8951e7a18c)|![image](https://github.com/GNB-hackathon/AI-Classroom-FrontEnd/assets/137675779/7460b18c-d30b-47ba-acab-4a620eb4679a)|
 
 
 배포 링크
